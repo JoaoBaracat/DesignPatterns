@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StrategyPattern.TravelingStrategies;
+using System;
 
 namespace StrategyPattern
 {
@@ -6,7 +7,12 @@ namespace StrategyPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TravelPlanner travelPlanner = new TravelPlanner();
+
+            travelPlanner.SetTravelStrategy(new Plane());
+            travelPlanner.Drive(1100);
+
+            Console.ReadKey();
         }
     }
 }
