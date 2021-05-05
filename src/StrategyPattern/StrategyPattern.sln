@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", ".
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FacadePattern", "FacadePattern", "{9F472CE4-AF32-45A1-BE6D-1ACED579B043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine", "..\SearchEngine\SearchEngine.csproj", "{CD32B0D0-C35E-4E00-8F99-3FEC9C4C3586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchEngine", "..\SearchEngine\SearchEngine.csproj", "{CD32B0D0-C35E-4E00-8F99-3FEC9C4C3586}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonPattern", "SingletonPattern", "{C2D453AF-226D-4446-A74A-D682BBB87CF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "..\Logger\Logger.csproj", "{C8A15A67-B7E1-4EB2-B386-DE5A727B15CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +39,17 @@ Global
 		{CD32B0D0-C35E-4E00-8F99-3FEC9C4C3586}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD32B0D0-C35E-4E00-8F99-3FEC9C4C3586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD32B0D0-C35E-4E00-8F99-3FEC9C4C3586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A15A67-B7E1-4EB2-B386-DE5A727B15CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A15A67-B7E1-4EB2-B386-DE5A727B15CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A15A67-B7E1-4EB2-B386-DE5A727B15CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A15A67-B7E1-4EB2-B386-DE5A727B15CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD32B0D0-C35E-4E00-8F99-3FEC9C4C3586} = {9F472CE4-AF32-45A1-BE6D-1ACED579B043}
+		{C8A15A67-B7E1-4EB2-B386-DE5A727B15CF} = {C2D453AF-226D-4446-A74A-D682BBB87CF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3529B60F-C782-420F-B426-C7EDA283E8A1}
